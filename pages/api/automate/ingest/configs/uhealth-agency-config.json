@@ -1,0 +1,113 @@
+{
+  "fieldMap": [
+    {
+      "source": "CANE ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "Candidate First Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "firstName"
+      }
+    },
+    {
+      "source": "Last Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "Specialty",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "STATIC - Job Family",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 67,
+        "static": "Nursing"
+      }
+    },
+    {
+      "source": "Manager ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "reportsTo"
+      }
+    },
+    {
+      "source": "CANE ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "ssoId"
+      }
+    },
+    {
+      "source": "CANE ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "Building ID",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Unit Assigned",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "Floor ID #",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    },
+    {
+      "source": "Supervisory_Org_ID",
+      "target": {
+        "type": "column",
+        "table": "custom",
+        "field": "super_org"
+      }
+    },
+    {
+      "source": "STATIC - Employee Type",
+      "target": {
+        "type": "column",
+        "table": "peopleGroups",
+        "field": "level",
+        "static": "Agency"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 1,
+    "dataStartRow": 2
+  }
+}

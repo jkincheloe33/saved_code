@@ -1,0 +1,87 @@
+{
+  "fieldMap": [
+    {
+      "source": "NUID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "Employee Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "Jobcode Description",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "EEO Job Group Description",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 23
+      }
+    },
+    {
+      "source": "Manager ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "reportsTo"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "email"
+      }
+    },
+    {
+      "source": "NUID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "Entity",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Department",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "Cost Center",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 1,
+    "dataStartRow": 2
+  }
+}

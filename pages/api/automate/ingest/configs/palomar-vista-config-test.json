@@ -1,0 +1,89 @@
+{
+  "fieldMap": [
+    {
+      "source": "Employee ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "First Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "firstName"
+      }
+    },
+    {
+      "source": "Last Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "job title",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "Employee ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "Fac_id",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Dept",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "dept id",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    },
+    {
+      "source": "usertype",
+      "target": {
+        "type": "column",
+        "table": "peopleGroups",
+        "field": "level"
+      }
+    },
+    {
+      "source": "Hire Date",
+      "target": {
+        "type": "column",
+        "table": "people",  
+        "field": "hireDate",
+        "dataType": "date"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 1,
+    "dataStartRow": 2
+  }
+}

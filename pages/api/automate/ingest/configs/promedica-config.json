@@ -1,0 +1,153 @@
+{
+  "fieldMap": [
+    {
+      "source": "EmployeeID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "First Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "firstName"
+      }
+    },
+    {
+      "source": "Last Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "email"
+      }
+    },
+    {
+      "source": "Date of Hire",
+      "target": {
+        "type": "column",
+        "dataType": "date",
+        "table": "people",
+        "field": "hireDate"
+      }
+    },
+    {
+      "source": "Date of Birth",
+      "target": {
+        "type": "column",
+        "dataType": "date",
+        "table": "people",
+        "field": "birthday"
+      }
+    },
+    {
+      "source": "UPN",
+      "target": {
+        "type": "column",        
+        "table": "people",
+        "field": "ssoId"
+      }
+    },
+    {
+      "source": "Job Family",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 52
+      }
+    },
+    {
+      "source": "Area",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 74,
+        "static": "deptCrossRef"
+      }
+    },
+    {
+      "source": "Position",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "Manager ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "reportsTo"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "Company",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Department",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "Department Code",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    },
+    {
+      "source": "Supervisor Type",
+      "target": {
+        "type": "column",
+        "table": "peopleGroups",
+        "field": "level"
+      }
+    },
+    {
+      "source": "Process Level Code",
+      "target": {
+        "type": "column",
+        "table": "custom",
+        "field": "processLevelCode"
+      }
+    },
+    {
+      "source": "Primary Position Flag",
+      "target": {
+        "type": "column",
+        "table": "custom",
+        "field": "primaryPosition"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 1,
+    "dataStartRow": 2
+  }
+}

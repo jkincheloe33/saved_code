@@ -1,0 +1,164 @@
+{
+  "fieldMap": [
+    {
+      "source": "Employee ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "First Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "firstName"
+      }
+    },
+    {
+      "source": "Last Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "Job Title",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "Date Of Birth",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "birthday",
+        "dataType": "date"
+      }
+    },
+    {
+      "source": "Discipline",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 17
+      }
+    },
+    {
+      "source": "% of remote",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 61
+      }
+    },
+    {
+      "source": "Company Name",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 62
+      }
+    },
+    {
+      "source": "Patient Care Level Description",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 63
+      }
+    },
+    {
+      "source": "TM Manager Level Description",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 64
+      }
+    },
+    {
+      "source": "TM Manager Level Code",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 65
+      }
+    },
+    {
+      "source": "Company Seniority Date",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hireDate",
+        "dataType": "date"
+      }
+    },
+    {
+      "source": "Manager ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "reportsTo"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "email"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "UPN",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "ssoId"
+      }
+    },
+    {
+      "source": "Facility/Site",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Dept Name",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "Dept ID",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    },
+    {
+      "source": "Employee Security Role",
+      "target": {
+        "type": "column",
+        "table": "peopleGroups",
+        "field": "level"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 2,
+    "dataStartRow": 3
+  }
+}

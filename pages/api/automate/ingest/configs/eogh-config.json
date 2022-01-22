@@ -1,0 +1,122 @@
+{
+  "fieldMap": [
+    {
+      "source": "Employee ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "Employee ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "First Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "firstName"
+      }
+    },
+    {
+      "source": "Last Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "Job Title",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "Manager ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "reportsTo"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "email"
+      }
+    },
+    {
+      "source": "Unit/Department",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "Unit/Department Code",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    },
+    {
+      "source": "Site",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Management Level",
+      "target": {
+        "type": "column",
+        "table": "peopleGroups",
+        "field": "level"
+      }
+    },
+    {
+      "source": "Date of Hire",
+      "target": {
+        "type": "column",
+        "table": "people",  
+        "field": "hireDate",
+        "dataType": "date"
+      }
+    },
+    {
+      "source": "Birth Date",
+      "target": {
+        "type": "column",
+        "table": "people",  
+        "field": "birthday",
+        "dataType": "date"
+      }
+    },
+    {
+      "source": "Mobile #",
+      "target": {
+        "type": "column",
+        "table": "people",  
+        "field": "mobile"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 1,
+    "dataStartRow": 2
+  }
+}

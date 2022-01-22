@@ -1,0 +1,128 @@
+{
+  "fieldMap": [
+    {
+      "source": "Employee ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "Employee First Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "firstName"
+      }
+    },
+    {
+      "source": "Employe Last Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "Job Profile",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "Job Family",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 54
+      }
+    },
+    {
+      "source": "Manager ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "reportsTo"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "email"
+      }
+    },
+    {
+      "source": "UPN",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "ssoId"
+      }
+    },
+    {
+      "source": "Email",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "Building_ID",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Floor",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "Floor_ID",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    },
+    {
+      "source": "Employee Type",
+      "target": {
+        "type": "column",
+        "table": "peopleGroups",
+        "field": "level"
+      }
+    },
+    {
+      "source": "Date of Hire",
+      "target": {
+        "type": "column",
+        "table": "people",  
+        "field": "hireDate",
+        "dataType": "date"
+      }
+    },
+    {
+      "source": "Supervisory_Org_ID",
+      "target": {
+        "type": "column",
+        "table": "custom",
+        "field": "super_org"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 1,
+    "dataStartRow": 2
+  }
+}

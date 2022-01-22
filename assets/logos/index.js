@@ -1,0 +1,6 @@
+export { default as DaisyLogo } from './daisy-logo.png'
+export { default as WambiBadgePurple1 } from './wambi-badge-purple-1.png'
+export { default as WambiLogo } from './wambi-logo.png'
+export { default as WambiTagline } from './wambi-tagline.png'
+export { default as WambiThanks } from './wambi-thanks-logo.svg'
+export { default as WambiWhiteBird } from './wambi-white-bird.png'

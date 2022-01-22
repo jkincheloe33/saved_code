@@ -1,0 +1,129 @@
+{
+  "fieldMap": [
+    {
+      "source": "Employee ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "hrId"
+      }
+    },
+    {
+      "source": "Legal First Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "firstName"
+      }
+    },
+    {
+      "source": "Legal Last Name",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "lastName"
+      }
+    },
+    {
+      "source": "Position",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "jobTitle"
+      }
+    },
+    {
+      "source": "Job Family",
+      "target": {
+        "type": "trait",
+        "traitTypeId": 20
+      }
+    },
+    {
+      "source": "Manager_Employee_ID",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "reportsTo"
+      }
+    },
+    {
+      "source": "Email - Work",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "email"
+      }
+    },
+    {
+      "source": "Email - Work",
+      "target": {
+        "type": "column",
+        "table": "people",
+        "field": "loginId"
+      }
+    },
+    {
+      "source": "Email - Work",
+      "target": {
+        "type": "column",        
+        "table": "people",
+        "field": "ssoId"
+      }
+    },
+    {
+      "source": "Company_Service _Date",
+      "target": {
+        "type": "column",
+        "dataType": "date",
+        "table": "people",
+        "field": "hireDate"
+      }
+    },
+    {
+      "source": "Location",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "site"
+      }
+    },
+    {
+      "source": "Cost Center - Name",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptName"
+      }
+    },
+    {
+      "source": "Cost Center - ID",
+      "target": {
+        "type": "column",
+        "table": "groups",
+        "field": "deptId"
+      }
+    },
+    {
+      "source": "Management Level",
+      "target": {
+        "type": "column",
+        "table": "peopleGroups",
+        "field": "level"
+      }
+    }
+  ],
+  "options": {
+    "columnHeaderRow": 1,
+    "dataStartRow": 2
+  },
+  "output": {
+    "notifyOnSuccess": [
+      "eric.kachelmeyer@wambi.org",
+      "3176588361"
+    ],
+    "notifyOnError": [
+      "3174144483"
+    ]
+  }
+}
